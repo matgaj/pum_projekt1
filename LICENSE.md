@@ -1,0 +1,1 @@
+© 2025 Mateusz Gajewski, Akademia Górniczo-Hutnicza w Krakowie
