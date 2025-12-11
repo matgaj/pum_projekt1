@@ -28,7 +28,7 @@ Zastosowano dwa algorytmy klasyfikacji:
 
 Dla obu algorytmów optymalizowano hiperparametry (tylko dla danych openSMILE)
  - RandomForestClassifier z użyciem optuny
- - SVC z użyciem GridSearchSV
+ - SVC z użyciem GridSearchCV
 
 ## Bibliografia
  [1] Juan J. Bosch, Ferdinand Fuhrmann, & Perfecto Herrera. (2014). IRMAS: a dataset for instrument recognition in musical audio signals (1.0) [Data set]. 13th International Society for Music Information Retrieval Conference (ISMIR 2012), Porto, Portugal. Zenodo. https://doi.org/10.5281/zenodo.1290750
