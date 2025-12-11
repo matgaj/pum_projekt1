@@ -5,7 +5,7 @@ W katalogu głównym znajdują się dwa foldery `mfcc` i `openSMILE`, które zaw
 
 Pliki `*_feature_exctraction.py` zawierają kod wykorzystany do ekstrakcji cech i zapisu ich do plików `*.parquet`. W celu ich uruchomienia należy pobrać plik `IRMAS-TrainingData.zip` z [tej strony](https://zenodo.org/records/1290750#.WzCwSRyxXMU), wypakować go do folderu i podać jego ścieżkę jako wartość stałej `DATA_ROOT`.
 
-Pliki `classification_*.ipynb` zawierają kod wykorzystany do całego procesu klasyfikacji, od podziału danych na podzbiory, po analizę macierzy pomyłek.
+Pliki `classification_*.ipynb` zawierają kod wykorzystany do całego procesu klasyfikacji, od podziału danych na podzbiory, po analizę macierzy pomyłek. Do ich uruchomienia potrzebne są pliki `.parquet` z cechami, które należy umieścić w tym samym folderze, co uruchamiany notebook.
 
 ## Projekt
 Klasyfikacja instrumentów muzycznych z bazy danych [IRMAS](https://www.upf.edu/web/mtg/irmas) [1] algorytmami klasyfikującymi z biblioteki scikit-learn.
